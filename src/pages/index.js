@@ -1,6 +1,6 @@
 import * as React from "react"
-import Test from "../components/test"
-
+import Hero from '../components/hero'
+import NewComponent from '../components/new'
 
 // styles
 const pageStyles = {
@@ -103,7 +103,8 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <Test></Test>
+      <Hero/>
+      <NewComponent/>
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -128,8 +129,8 @@ const IndexPage = () => {
             {docLink.text}
           </a>
         </li>
-        {links.map(link => (
-          <li style={{ ...listItemStyles, color: link.color }}>
+        {links.map((link, i) => (
+          <li key={i} style={{ ...listItemStyles, color: link.color }}>
             <span>
               <a
                 style={linkStyle}
