@@ -1,0 +1,13 @@
+{
+    "emmet.includeLanguages": {
+        "javascriptreact": "html",
+        "javascript": "html"
+    },
+    "css.validate": false,
+    "editor.quickSuggestions": true,
+    "tailwindCSS.includeLanguages": {
+        " \"plaintext\"": "\"html\""
+    },
+    "tailwindCSS.emmetCompletions": true
+
+}

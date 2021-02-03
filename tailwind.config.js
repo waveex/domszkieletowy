@@ -4,12 +4,19 @@ module.exports = {
   theme: {
 
     colors: {
-      "korsi": "#94ca34"
+      "background": "#100c08"
     },
-    extend: {},
+    extend: {
+      /*backgroundImage: theme => ({
+        'hero-pattern': "url('../images/header.jpg')",
+
+       })*/
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+
+    },
   },
   plugins: [],
 }
