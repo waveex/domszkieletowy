@@ -1,4 +1,5 @@
 import React from 'react';
+import WalczDom from './galery/walczDom'
 
 const About = () => {
     return (
@@ -46,7 +47,7 @@ Drewno C24 - Szwecja i Norwegia,
 Drewno BSH, KVH, Steico - Niemcy i Austria .</p>
                     </div>
                     <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-
+                    <WalczDom />
 
                     </div>
                 </div>

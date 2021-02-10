@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Dom szkieletowy",
+    pathPrefix: "/domszkieletowy",
   },
+
   plugins: [
     "gatsby-plugin-sass",
     {

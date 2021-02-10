@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
     return (
         <div >
-            <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
+            <div className="relative pt-6 ">
                 <nav className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
                     <div className="flex items-center flex-1">
                         <div className="hidden md:block md:ml-10 md:space-x-10">
