@@ -15,10 +15,10 @@ const WalczDom = () => {
           node {
             base
             childImageSharp {
-              thumb: fluid(maxWidth: 270, maxHeight: 270) {
+              thumb: fluid(maxWidth: 270, maxHeight: 270, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
-              full: fluid(maxWidth: 1024) {
+              full: fluid(maxWidth: 1024, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
