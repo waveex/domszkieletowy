@@ -1,7 +1,7 @@
 module.exports = {
+  pathPrefix: "/domszkieletowy",
   siteMetadata: {
     title: "Dom szkieletowy",
-    pathPrefix: "/domszkieletowy",
   },
 
   plugins: [

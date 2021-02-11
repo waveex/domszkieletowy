@@ -1,7 +1,7 @@
 import * as React from "react"
 import Image from './header/image'
 import Nav from './header/nav'
-import Budynek from './galery/budynek'
+
 const Hero = () => {
 
   return (
@@ -30,7 +30,6 @@ const Hero = () => {
 
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                 <Image ></Image>
-                <Budynek />
               </div>
             </div>
           </div>
