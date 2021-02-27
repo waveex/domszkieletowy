@@ -18,7 +18,7 @@ const Image = () => {
   }
   `);
   return(
-    <Img className=" rounded-lg h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" fluid={data.obrazek.childImageSharp.fluid} alt="budynek o elewacji drewnianej"/>
+    <Img className=" rounded-lg h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" fluid={data.obrazek.childImageSharp.fluid} />
 
    );}
 

@@ -1,5 +1,6 @@
 module.exports = {
-  pathPrefix: "/domszkieletowy",
+  flags: { PRESERVE_WEBPACK_CACHE: true },
+  /* pathPrefix: "/domszkieletowy",*/
   siteMetadata: {
     title: "Dom szkieletowy",
   },
