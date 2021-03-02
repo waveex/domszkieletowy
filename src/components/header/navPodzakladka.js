@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-const Nav = () => {
+const NavReal = () => {
   return (
     <div>
       <div className="relative pt-6 ">
@@ -11,29 +11,17 @@ const Nav = () => {
           <div className="flex items-center flex-1 justify-center">
             <div className="hidden md:block md:ml-10 md:space-x-10 ">
               <Link
-                to="oferta"
+                to="..//"
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
-                Oferta
+                Strona główna
               </Link>
               <Link
-                to="ofirmie"
-                className="text-3xl white link text-gray-500 hover:text-gray-900"
-              >
-                O Firmie
-              </Link>
-              <Link
-                to="../realisation/"
-                className="text-3xl white link text-gray-500 hover:text-gray-900"
-              >
-                Realizaje
-              </Link>
-              <a
-                href="./#kontakt"
+                to="kontakt"
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
                 Kontakt
-              </a>
+              </Link>
             </div>
           </div>
         </nav>
@@ -42,4 +30,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavReal;
