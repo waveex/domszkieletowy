@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import scrollTo from "gatsby-plugin-smoothscroll";
 const NavReal = () => {
   return (
     <div>
@@ -16,12 +17,18 @@ const NavReal = () => {
               >
                 Strona główna
               </Link>
-              <Link
-                to="kontakt"
+              <a
+               onClick={()  => scrollTo("#realizacje")}
+                className="text-3xl white link text-gray-500 hover:text-gray-900"
+              >
+            Realizaje
+              </a>
+              <a
+               onClick={()  =>  scrollTo("#kontakt")}
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
                 Kontakt
-              </Link>
+              </a>
             </div>
           </div>
         </nav>

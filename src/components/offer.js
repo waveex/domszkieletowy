@@ -3,7 +3,7 @@ import React from "react";
 const Offer = () => {
   return (
     <div>
-      <div id="#oferta" className="bg-white ">
+      <div id="oferta" className="bg-white ">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
           <div className="max-w-3xl  grid-1-3">
             <h2 className=" flex justify-center self-center text-5xl brown  font-extrabold text-gray-900">

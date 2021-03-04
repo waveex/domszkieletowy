@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import scrollTo from "gatsby-plugin-smoothscroll";
 const Nav = () => {
   return (
     <div>
@@ -10,18 +11,18 @@ const Nav = () => {
         >
           <div className="flex items-center flex-1 justify-center">
             <div className="hidden md:block md:ml-10 md:space-x-10 ">
-              <Link
-                to="oferta"
+              <a
+               onClick={()  =>  scrollTo("#oferta")}
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
                 Oferta
-              </Link>
-              <Link
-                to="ofirmie"
+              </a>
+              <a
+                onClick={() => scrollTo("#ofirmie")}
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
                 O Firmie
-              </Link>
+              </a>
               <Link
                 to="../realisation/"
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
@@ -29,7 +30,7 @@ const Nav = () => {
                 Realizaje
               </Link>
               <a
-                href="./#kontakt"
+                onClick={() => scrollTo("#kontakt")}
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
                 Kontakt
