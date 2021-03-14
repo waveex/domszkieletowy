@@ -4,7 +4,7 @@ import scrollTo from "gatsby-plugin-smoothscroll";
 const NavReal = () => {
   return (
     <div>
-      <div className="relative pt-6 ">
+      <div id="hero" className="relative pt-6 ">
         <nav
           className="relative max-w-7xl mx-auto flex items-start  px-4 sm:px-6    "
           aria-label="Global"
@@ -18,13 +18,13 @@ const NavReal = () => {
                 Strona główna
               </Link>
               <a
-               onClick={()  => scrollTo("#realizacje")}
+                onClick={() => scrollTo("#realizacje")}
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
-            Realizaje
+                Realizaje
               </a>
               <a
-               onClick={()  =>  scrollTo("#kontakt")}
+                onClick={() => scrollTo("#kontakt")}
                 className="text-3xl white link text-gray-500 hover:text-gray-900"
               >
                 Kontakt

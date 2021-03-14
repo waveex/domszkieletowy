@@ -4,7 +4,7 @@ import Nav from "./header/nav";
 
 const Hero = () => {
   return (
-    <div className="relative bg-white overflow-hidden tlo">
+    <div id="hero" className="relative bg-white overflow-hidden tlo">
       <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
         <Nav />
 

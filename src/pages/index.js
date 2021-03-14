@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 import Offer from "../components/offer";
 import About from "../components/about";
 import Contact from "../components/contact";
-
+import Gotoup from "../components/gotoup";
 const IndexPage = () => {
   return (
     <main className="fadeIn">
@@ -11,6 +11,7 @@ const IndexPage = () => {
       <Offer />
       <About />
       <Contact />
+      <Gotoup />
     </main>
   );
 };

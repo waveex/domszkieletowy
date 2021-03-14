@@ -1,10 +1,21 @@
 import React from "react";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Gotoup = () => {
+  //  let y = window.scrollY;
+  //   const scrollToTopButton = document.getElementById("gotoup");
+  //   if (y > 0) {
+  //     scrollToTopButton.className = "gotoup-show";
+  //   } else {
+  //     scrollToTopButton.className = "gotoup-hide";
+  //   }
+
   return (
     <div className="bg-opacity-0">
-      <div className="border-background rounded-full p-11">
-        <div className="text-background  text-7xl">^</div>
+      <div id="gotoup" className="gotoup">
+        <a onClick={() => scrollTo("#hero")} className="brown  text-7xl">
+          ^
+        </a>
       </div>
     </div>
   );

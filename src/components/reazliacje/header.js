@@ -2,7 +2,7 @@ import React from "react";
 import NavReal from "../header/navPodzakladka";
 const Header = () => {
   return (
-    <div id="#ofirmie" className="relative py-16 bgDechy overflow-hidden ">
+    <div className="relative  bgDechy overflow-hidden ">
       <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
         <NavReal />
 
