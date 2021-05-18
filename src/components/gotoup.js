@@ -13,9 +13,7 @@ const Gotoup = () => {
   return (
     <div className="bg-opacity-0">
       <div id="gotoup" className="gotoup">
-        <a onClick={() => scrollTo("#hero")} className="brown  text-7xl">
-          ^
-        </a>
+        <a onClick={() => scrollTo("#hero")}>^</a>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 module.exports = {
   flags: { PRESERVE_WEBPACK_CACHE: true },
-  /* pathPrefix: "/domszkieletowy",*/
+  pathPrefix: "/domszkieletowy",
   siteMetadata: {
     title: "Dom szkieletowy",
   },
@@ -13,7 +13,7 @@ module.exports = {
         trackingId: "ua-123123123",
       },
     },
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
