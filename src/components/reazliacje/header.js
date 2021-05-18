@@ -8,9 +8,9 @@ const Header = () => {
 
         <main>
           <div>
-            <div className="center header-container">
+            <div className="center ">
               <h1>
-                <span className="mt-1 block  tracking-tight  sm:text-5xl xl:text-6xl text-center">
+                <span className="mt-1 block header-container tracking-tight  sm:text-5xl xl:text-6xl text-center">
                   <span className="block  hero__title ">Dom szkieletowy </span>
                   <span className="block hero__title">Realizacje</span>
                 </span>

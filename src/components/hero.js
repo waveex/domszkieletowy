@@ -1,5 +1,4 @@
 import * as React from "react";
-import Image from "./header/image";
 import Nav from "./header/nav";
 
 const Hero = () => {
