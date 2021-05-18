@@ -6,9 +6,9 @@ const Header = () => {
       <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
         <NavReal />
 
-        <main className=" ">
-          <div className="">
-            <div className="center">
+        <main>
+          <div>
+            <div className="center header-container">
               <h1>
                 <span className="mt-1 block  tracking-tight  sm:text-5xl xl:text-6xl text-center">
                   <span className="block  hero__title ">Dom szkieletowy </span>

@@ -151,3 +151,22 @@ color:#C57B57;
     .gotoup:hover {
         border-color:#F2D0A4 ;
     }
+
+    @media(max-width: 768px){
+        .link {
+            padding: 0 10px;
+        }
+        .header-container{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        }
+    }
+    @media(max-width: 446px){
+        .link {
+            padding: 0 10px;
+            font-size: 18px;
+        }
+
+    }

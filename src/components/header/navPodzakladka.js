@@ -10,7 +10,7 @@ const NavReal = () => {
           aria-label="Global"
         >
           <div className="flex items-center flex-1 justify-center">
-            <div className="hidden md:block md:ml-10 md:space-x-10 ">
+            <div className=" md:block md:ml-10 md:space-x-10 ">
               <Link
                 to="..//"
                 className="text-3xl link text-gray-500 hover:text-gray-900"

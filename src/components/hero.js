@@ -10,7 +10,7 @@ const Hero = () => {
 
         <main className=" ">
           <div className="">
-            <div className="center">
+            <div className="  center">
               <h1>
                 <span className="mt-1 block  tracking-tight  sm:text-5xl xl:text-6xl text-center">
                   <span className="block  hero__title ">Dom szkieletowy </span>

@@ -10,28 +10,28 @@ const Nav = () => {
           aria-label="Global"
         >
           <div className="flex items-center flex-1 justify-center">
-            <div className="hidden md:block md:ml-10 md:space-x-10 ">
+            <div className=" md:block md:ml-10 md:space-x-10 ">
               <a
-               onClick={()  =>  scrollTo("#oferta")}
-                className="text-3xl white link text-gray-500 hover:text-gray-900"
+                onClick={() => scrollTo("#oferta")}
+                className="text-3xl  link text-gray-500 hover:text-gray-900"
               >
                 Oferta
               </a>
               <a
                 onClick={() => scrollTo("#ofirmie")}
-                className="text-3xl white link text-gray-500 hover:text-gray-900"
+                className="text-3xl  link text-gray-500 hover:text-gray-900"
               >
                 O Firmie
               </a>
               <Link
                 to="../realisation/"
-                className="text-3xl white link text-gray-500 hover:text-gray-900"
+                className="text-3xl  link text-gray-500 hover:text-gray-900"
               >
                 Realizaje
               </Link>
               <a
                 onClick={() => scrollTo("#kontakt")}
-                className="text-3xl white link text-gray-500 hover:text-gray-900"
+                className="text-3xl  link text-gray-500 hover:text-gray-900"
               >
                 Kontakt
               </a>
