@@ -18,16 +18,15 @@ const About = () => {
               </span>
             </h1>
             <p className="mt-8 text-2xl text-gray-500 white about-p  leading-8">
-              O Firmie dom szkieletowy Jesteśmy małą firmą z wieloletnim
-              doświadczeniem zdobytym w USA, Norwegii i na terenie Polski.
-              Budujemy bezpieczne, solidne i energooszczędne domy oraz obiekty
-              użytkowe. Nasze wykonanie jest nastawione na jakość, nie na ilość,
-              każdy realizowany przez nas projekt jest przedsięwzięciem
-              indywidualnym. W celu uzyskania najlepszej jakości i czasu
-              realizacji współpracujemy z wieloma dostawcami zarówno z Polski
-              jak i za granicy. [ dostawcy, mogą być ikonki z opisem ] Drewno
-              C24 - Szwecja i Norwegia, Drewno BSH, KVH, Steico - Niemcy i
-              Austria .
+              Jesteśmy małą firmą z wieloletnim doświadczeniem zdobytym w USA,
+              Norwegii i na terenie Polski. Budujemy bezpieczne, solidne i
+              energooszczędne domy oraz obiekty użytkowe. Nasze wykonanie jest
+              nastawione na jakość, nie na ilość, każdy realizowany przez nas
+              projekt jest przedsięwzięciem indywidualnym. W celu uzyskania
+              najlepszej jakości i czasu realizacji współpracujemy z wieloma
+              dostawcami zarówno z Polski jak i za granicy. [ dostawcy, mogą być
+              ikonki z opisem ] Drewno C24 - Szwecja i Norwegia, Drewno BSH,
+              KVH, Steico - Niemcy i Austria .
             </p>
           </div>
           <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto"></div>

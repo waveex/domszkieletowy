@@ -73,18 +73,22 @@ color:#C57B57;
 .about-p {
     padding: 10px;
     text-align: justify;
-    background: rgb(128,128,128,0.3 );
+    background: rgb(128,128,128,0.6 );
     border-radius: 8px;
 }
 
 
 .link {
-    color:#C57B57;
-}
-.link:hover {
+
     color:#041F1E;
 }
-
+.link-sub {
+    color:#fff;
+}
+.link:hover {
+    color:#C57B57;
+}
+.link-sub:hover {color:#C57B57;}
 .conLink:hover {
     color:#fff;
 }
@@ -144,7 +148,7 @@ color:#C57B57;
     }
 
     .gotoup:hover {
-        border-color:#F2D0A4 ;
+        background: #fff;
     }
 
 .tlo {
@@ -166,6 +170,10 @@ color:#C57B57;
     left: -20px;
 }
     @media(max-width: 768px){
+        .contact-hero {
+            padding-top: 2rem;
+    padding-bottom: 2rem;
+        }
         .link {
             padding: 0 10px;
         }

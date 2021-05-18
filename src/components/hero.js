@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="">
             <div className="  center">
               <h1>
-                <span className="mt-1 block  tracking-tight  sm:text-5xl xl:text-6xl text-center">
+                <span className="mt-1 block header-container tracking-tight  sm:text-5xl xl:text-6xl text-center">
                   <span className="block  hero__title ">Dom szkieletowy </span>
                   <span className="block text-3xl mt-8 white">
                     Zapraszamy do zapoznania się z naszą ofertą i

@@ -29,7 +29,7 @@ const Contact = () => {
           <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
         </div>
         <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
-          <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+          <div className="bg-gray-50 contact-hero sm:py-8 md:py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
             <div className="max-w-lg mx-auto">
               <h2 className="text-4xl white font-extrabold  sm:text-3xl">
                 Skontaktuj się z nami
@@ -38,19 +38,12 @@ const Contact = () => {
                 Umów się na wycenę już dziś!
               </p>
               <dl className="mt-8 text-base text-gray-500">
-                <div>
-                  <dt className="sr-only">Adres pocztowy</dt>
-                  <dd>
-                    <p>742 Evergreen Terrace</p>
-                    <p>Springfield, OR 12345</p>
-                  </dd>
-                </div>
                 <div className="mt-6">
                   <dt className="sr-only">Phone number</dt>
-                  <dd className="flex">
+                  <dd className="flex ">
                     {/* Heroicon name: outline/phone */}
                     <svg
-                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                      className="flex-shrink-0 mt-2 h-6 w-6 text-gray-400"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -76,7 +69,7 @@ const Contact = () => {
                 </div>
                 <div className="mt-3">
                   <dt className="sr-only">Email</dt>
-                  <dd className="flex">
+                  <dd className="flex items-center ">
                     {/* Heroicon name: outline/mail */}
                     <svg
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
@@ -94,8 +87,7 @@ const Contact = () => {
                       />
                     </svg>
                     <a
-                      className=" text-xl ml-2"
-                      className="conLink"
+                      className=" conLink text-xl ml-2"
                       href="mailto:domszkieletowywaw@gmail.com"
                     >
                       domszkieletowywaw@gmail.com
@@ -105,7 +97,7 @@ const Contact = () => {
               </dl>
             </div>
           </div>
-          <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+          <div className="bg-white  px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form onSubmit={sendEmail} className="grid grid-cols-1 gap-y-6">
                 <div>

@@ -13,19 +13,19 @@ const NavReal = () => {
             <div className=" md:block md:ml-10 md:space-x-10 ">
               <Link
                 to="..//"
-                className="text-3xl link text-gray-500 hover:text-gray-900"
+                className="text-3xl link-sub text-gray-500 hover:text-gray-900"
               >
                 Strona główna
               </Link>
               <a
                 onClick={() => scrollTo("#realizacje")}
-                className="text-3xl link text-gray-500 hover:text-gray-900"
+                className="text-3xl link-sub text-gray-500 hover:text-gray-900"
               >
                 Realizaje
               </a>
               <a
                 onClick={() => scrollTo("#kontakt")}
-                className="text-3xl link text-gray-500 hover:text-gray-900"
+                className="text-3xl link-sub text-gray-500 hover:text-gray-900"
               >
                 Kontakt
               </a>
