@@ -30,14 +30,14 @@ const Contact = () => {
         </div>
         <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
           <div className="bg-gray-50 contact-hero sm:py-8 md:py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
-            <div className="max-w-lg mx-auto">
+            <div className="contact-text max-w-lg mx-auto">
               <h2 className="text-4xl white font-extrabold  sm:text-3xl">
                 Skontaktuj się z nami
               </h2>
-              <p className="mt-3 text-4xl white leading-6 text-gray-500">
+              <p className="mt-3 text-4xl white leading-8 text-gray-500">
                 Umów się na wycenę już dziś!
               </p>
-              <dl className="mt-8 text-base text-gray-500">
+              <dl className="mt-8 contact-phones text-base text-gray-500">
                 <div className="mt-6">
                   <dt className="sr-only">Phone number</dt>
                   <dd className="flex ">
@@ -97,7 +97,7 @@ const Contact = () => {
               </dl>
             </div>
           </div>
-          <div className="bg-white  px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+          <div className="bg-white py-4  px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form onSubmit={sendEmail} className="grid grid-cols-1 gap-y-6">
                 <div>

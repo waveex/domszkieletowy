@@ -5,7 +5,7 @@ const Offer = () => {
     <div>
       <div id="oferta" className="bg-white ">
         <div className="max-w-7xl mx-auto offer-container md:py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-          <div className="max-w-3xl offer-header grid-1-3">
+          <div className=" offer-header">
             <h2 className=" flex justify-center self-center text-5xl brown  font-extrabold text-gray-900">
               Oferta
             </h2>
@@ -16,7 +16,7 @@ const Offer = () => {
               każdy projekt wymaga odpowiedniego wykonawcy.
             </p>
           </div>
-          <div className=" grid-1">
+          <div className=" offer-header">
             <p className="mt-4 offer-text text-3xl text-gray-500 text-center">
               Oferta naszej firmy jest bogata w nowoczesne rozwiązania przy
               współpracy z wieloma dostawcami materiałów zarówno z Polski jak i
@@ -24,7 +24,7 @@ const Offer = () => {
               <b> Prace wykonujemy w obrębie 100 kilometrów od Warszawy.</b>
             </p>
           </div>
-          <div className="grid-1-3 offer-services">
+          <div className=" offer-services">
             <p className="mt-4 flex justify-center self-center text brown text-5xl font-extrabold">
               Zakres usług:
             </p>
@@ -33,8 +33,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position ">
+                <dt className="offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Domy szkiletowe
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -46,8 +46,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position ">
+                <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Więźby dachowe
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -58,8 +58,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position ">
+                <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Elewacje drewniane
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -71,8 +71,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position ">
+                <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Tarasy
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -84,8 +84,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position">
+                <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Altany
                 </dt>
                 <dd className="mt-2 text-base text-gray-500"></dd>
@@ -94,8 +94,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position">
+                <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Renowacje obiektów drewnianych
                 </dt>
                 <dd className="mt-2 text-base text-gray-500"></dd>
@@ -104,8 +104,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position">
+                <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   W okresie zimowym prace wykończeniowe “suche” np. montaż płyt,
                   układanie podłóg
                 </dt>
@@ -115,8 +115,8 @@ const Offer = () => {
             <div className="flex">
               {/* Heroicon name: outline/check */}
 
-              <div className="ml-3 offer-item">
-                <dt className="text-3xl leading-6 font-medium text-gray-900 darkGreen">
+              <div className="ml-3 offer-position">
+                <dt className="  offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Remonty generalne
                 </dt>
                 <dd className="mt-2 text-base text-gray-500"></dd>

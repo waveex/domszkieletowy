@@ -20,7 +20,20 @@ b {font-weight: 500;}
 
 
 }
-
+.contact-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-phones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .hero__title {
     width: 700px;
     font-size: 160px;
@@ -67,14 +80,16 @@ color:#C57B57;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 9px;
+    border-radius: 9px 9px 0px 0px;
 
 }
 .about-p {
     padding: 10px;
     text-align: justify;
-    background: rgb(128,128,128,0.6 );
+    background: rgb(0,0,0,.4);
     border-radius: 8px;
+    padding: 20px;
+    color:#fff;
 }
 
 
@@ -159,6 +174,18 @@ color:#C57B57;
         background-repeat: no-repeat;
         background-size: cover;
     }
+.nav-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-header {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  text-align: center;
+}
 .offer-item::before {
     content: "";
     display: block;
@@ -168,6 +195,15 @@ color:#C57B57;
     background:#C57B57 ;
     border-radius: 50%;
     left: -20px;
+    top: 18px;
+}
+.offer-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
 }
     @media(max-width: 768px){
         .contact-hero {
@@ -187,11 +223,6 @@ color:#C57B57;
          align-items: center;
          flex-direction: column;
         }
-        .offer-header {
-            grid-template-columns: none;
-            grid-template-rows: 80px 1fr;
-          {text-align: center;}
-        }
 
         .offer-container {
             padding-top: 0;
@@ -205,7 +236,7 @@ color:#C57B57;
         .offer-text {
             text-align: center;
             font-size: 24px;
-        line-height: 22px;
+        line-height: 32px;
         }
     }
     @media(max-width: 446px){
@@ -217,5 +248,8 @@ color:#C57B57;
             text-align: center;
             font-size: 24px;
         line-height: 22px;
+        }
+        .link-sub {
+            font-size: 18px;
         }
     }
