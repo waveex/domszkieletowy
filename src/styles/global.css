@@ -63,6 +63,9 @@ b {font-weight: 500;}
 { display:grid;
  grid-template-columns: 2fr 1fr;
 }
+.gatsby-image-wrapper:hover {
+    filter: blur(1px);
+}
 .brown {
 color:#C57B57;
 }
