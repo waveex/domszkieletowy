@@ -136,7 +136,7 @@ const Contact = () => {
                     id="phone"
                     autoComplete="tel"
                     className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-                    placeholder="Numer telfonu"
+                    placeholder="Numer telefonu"
                   />
                 </div>
                 <div>

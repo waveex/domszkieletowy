@@ -35,7 +35,7 @@ const Offer = () => {
 
               <div className="ml-3 offer-position ">
                 <dt className="offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
-                  Domy szkiletowe
+                  Domy szkieletowe
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
                   Kompleksowa budowa domów i budynków użytkowych o konstrukcji
@@ -50,9 +50,7 @@ const Offer = () => {
                 <dt className=" offer-item text-3xl leading-6 font-medium text-gray-900 darkGreen">
                   Więźby dachowe
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  Budujemy konstrukcje wieźb dachowych dla domów.
-                </dd>
+                <dd className="mt-2 text-base text-gray-500"></dd>
               </div>
             </div>
             <div className="flex">
@@ -63,8 +61,8 @@ const Offer = () => {
                   Elewacje drewniane
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
-                  Elewacje drewniane są przykłądem możliwości jakie oferuje nam
-                  drewno, nadająć budynkowi oryginalny wygląd.
+                  Elewacje drewniane są przykładem możliwości jakie oferuje nam
+                  drewno, nadając budynkowi oryginalny wygląd.
                 </dd>
               </div>
             </div>
