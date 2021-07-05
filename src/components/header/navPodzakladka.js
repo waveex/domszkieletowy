@@ -21,7 +21,7 @@ const NavReal = () => {
                 onClick={() => scrollTo("#realizacje")}
                 className="text-3xl link-sub text-gray-500 hover:text-gray-900"
               >
-                Realizaje
+                Realizacje
               </a>
               <a
                 onClick={() => scrollTo("#kontakt")}

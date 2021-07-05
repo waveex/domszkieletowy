@@ -27,7 +27,7 @@ const Nav = () => {
                 to="../realisation/"
                 className="text-3xl  link text-gray-500 hover:text-gray-900"
               >
-                Realizaje
+                Realizacje
               </Link>
               <a
                 onClick={() => scrollTo("#kontakt")}
