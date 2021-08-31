@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "ua-123123123",
+        trackingId: "ua-206133796-1",
       },
     },
     "gatsby-plugin-postcss",
@@ -24,6 +24,20 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "domszkieletowy.org",
+        short_name: "domszkieletowy.org",
+        start_url: "/",
+        background_color: "#6b37bf",
+        theme_color: "#6b37bf",
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: "standalone",
+        icon: "src/images/favicon.png", // This path is relative to the root of the site.
+      },
     },
   ],
 };
