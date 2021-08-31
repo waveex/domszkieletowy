@@ -10,7 +10,7 @@ const IndexPage = () => {
     <main className="fadeIn">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Dom Szkieltowy - zbuduj z nami swój dom</title>
+        <title>Dom Szkieletowy - zbuduj z nami swój dom</title>
         <meta
           name="description"
           content="Kompleksowa budowa domów szkieletowych i konstrukcji drewnianych"
